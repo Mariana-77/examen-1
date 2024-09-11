@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web de la empresa Alejandra5 - Servicios Profesionales">
+    <title>Alejandra5 - Servicios Profesionales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Alejandra5</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section-padding">
+        <h2>Sobre Nosotros</h2>
+        <p>Alejandra5 es una empresa dedicada a brindar servicios profesionales de alta calidad. Nos especializamos en soluciones personalizadas para nuestros clientes.</p>
+    </section>
+
+    <section id="servicios" class="section-padding">
+        <h2>Nuestros Servicios</h2>
+        <p>Ofrecemos una amplia gama de servicios, desde consultoría hasta implementación de proyectos a medida.</p>
+        <ul>
+            <li>Consultoría en tecnología</li>
+            <li>Desarrollo de software a medida</li>
+            <li>Soluciones empresariales</li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="section-padding">
+        <h2>Contáctanos</h2>
+        <form action="contacto.php" method="POST" id="form-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Alejandra5 - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
